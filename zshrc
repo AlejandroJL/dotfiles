@@ -1,5 +1,6 @@
 # Path to your oh-my-zsh configuration.
 ZSH=$HOME/.oh-my-zsh
+ZSH_THEME=""
 
 plugins=(git rails3 brew gem osx ruby)
 
@@ -7,6 +8,9 @@ source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 source ~/.localrc
+
+# My theme
+source ~/.zsh-custom/themes/keper.zsh-theme
 
 # cd
 alias ..='cd ..'
