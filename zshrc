@@ -1,5 +1,6 @@
 # Path to your oh-my-zsh configuration.
 ZSH=$HOME/.oh-my-zsh
+ZSH_CUSTOM=~/.zsh-custom/plugins
 ZSH_THEME=""
 
 plugins=(git rails3 brew gem osx ruby)
