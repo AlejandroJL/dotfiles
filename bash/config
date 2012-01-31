@@ -1,4 +1,4 @@
-EDITOR="mate -w"
+EDITOR="subl -w"
 PATH="~/bin:$PATH"
 
 # History stuff
