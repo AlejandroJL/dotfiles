@@ -3,7 +3,7 @@ ZSH=$HOME/.oh-my-zsh
 ZSH_CUSTOM=~/.zsh-custom/plugins
 ZSH_THEME=""
 
-plugins=(git rails3 brew gem osx ruby)
+plugins=(git rails3 brew gem osx ruby rvm)
 
 source $ZSH/oh-my-zsh.sh
 
