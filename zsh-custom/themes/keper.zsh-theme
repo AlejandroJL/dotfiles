@@ -9,7 +9,7 @@ function toon {
   echo -n ""
 }
 local rvm=''
-if [[ $(~/.rvm/bin/rvm-prompt v) != 1.8.7 ]]; then
+if [[ ! -z $(~/.rvm/bin/rvm-prompt v) && $(~/.rvm/bin/rvm-prompt v) != 1.8.7 ]]; then
   rvm='‹%{$fg[magenta]%}$(rvm-prompt v g)%{$reset_color%}›'
 else
   rvm=''
