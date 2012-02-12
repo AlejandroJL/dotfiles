@@ -10,6 +10,11 @@ These are config files to set up a system the way I like it. Includes bash and z
   git submodule update --init
   rake install
 
+If you use rvm, install it and put [[ -s "/Users/youruser/.rvm/scripts/rvm" ]] && source "/Users/youruser/.rvm/scripts/rvm" into .localrc to load it.
+
+If you want use zsh has default:
+
+  chsh -s /bin/zsh
 
 == Environment
 
