@@ -1,0 +1,1 @@
+PATH="~/bin:~/.rvm/bin:/usr/local/bin:$PATH"
