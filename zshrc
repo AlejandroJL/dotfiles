@@ -2,6 +2,8 @@
 ZSH=$HOME/.oh-my-zsh
 ZSH_CUSTOM=~/.zsh-custom/plugins
 ZSH_THEME=""
+DISABLE_AUTO_UPDATE="true"
+COMPLETION_WAITING_DOTS="true"
 
 plugins=(git rails3 brew gem osx ruby rvm)
 
