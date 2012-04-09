@@ -5,7 +5,7 @@ ZSH_THEME=""
 DISABLE_AUTO_UPDATE="true"
 COMPLETION_WAITING_DOTS="true"
 
-plugins=(git rails3 brew gem osx ruby rvm)
+plugins=(git rails3 brew gem osx ruby rvm bundler cap pow powder rake)
 
 source $ZSH/oh-my-zsh.sh
 
