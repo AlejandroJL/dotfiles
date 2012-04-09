@@ -36,3 +36,4 @@ alias vim='mvim -v'
 # osx
 alias showhidden="defaults write com.apple.Finder AppleShowAllFiles -bool true && killall Finder"
 alias hidehidden="defaults write com.apple.Finder AppleShowAllFiles -bool false && killall Finder"
+alias updatedb="sudo /usr/libexec/locate.updatedb"
