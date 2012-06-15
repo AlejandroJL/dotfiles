@@ -32,7 +32,9 @@ alias %=' '
 # misc
 alias reload='source ~/.zshrc'
 alias vim='mvim -v'
+alias ce='c && e .'
 alias e='subl'
+alias gm='git merge --no-ff'
 
 # osx
 alias showhidden="defaults write com.apple.Finder AppleShowAllFiles -bool true && killall Finder"
