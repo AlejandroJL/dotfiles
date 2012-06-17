@@ -1,1 +1,1 @@
-PATH="~/bin:~/.rvm/bin:/usr/local/bin:$PATH"
+PATH="~/bin:~/.rvm/bin:/usr/local/bin:/usr/local/lib/node_modules:$PATH"
