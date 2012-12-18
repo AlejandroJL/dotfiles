@@ -9,8 +9,8 @@ function toon {
   echo -n ""
 }
 local rvm=''
-if [[ ! -z $(~/.rvm/bin/rvm-prompt v g) ]]; then
-  rvm='‹%{$fg[magenta]%}$(rvm-prompt v g)%{$reset_color%}›'
+if [[ ! -a $(~/.rvm/bin/rvm-prompt) ]]; then
+  rvm='‹%{$fg[magenta]%}$(~/.rvm/bin/rvm-prompt v g)%{$reset_color%}›'
 else
   rvm=''
 fi
@@ -18,7 +18,7 @@ local return_code='%(?..%{$fg[red]%}%? ↵%{$reset_color%})'
 
 git_prompt='%{$fg[blue]%}%~%{$reset_color%} $(git_prompt_info)$(git_prompt_status)%{$reset_color%}'
 
-PROMPT="$git_prompt 
+PROMPT="$git_prompt
 $(toon) "
 
 ZSH_THEME_GIT_PROMPT_PREFIX="[%{$fg[red]%}"
