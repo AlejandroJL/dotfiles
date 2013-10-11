@@ -4,3 +4,5 @@
 *~
 \#*#
 .powrc
+*/environments/development.rb
+*.sublime*
