@@ -22,6 +22,7 @@ alias ...='cd ../..'
 # git
 alias gP='git push origin $(current_branch)'
 alias gsmu="git submodule update --init"
+alias gm='git merge --no-ff'
 
 # rails
 alias rst='touch tmp/restart.txt'
@@ -32,8 +33,7 @@ alias %=' '
 # misc
 alias reload='source ~/.zshrc'
 alias vim='mvim -v'
-alias e='st'
-alias gm='git merge --no-ff'
+alias e='subl'
 
 # osx
 alias showhidden="defaults write com.apple.Finder AppleShowAllFiles -bool true && killall Finder"
