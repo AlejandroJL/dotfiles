@@ -5,7 +5,7 @@ ZSH_THEME=""
 DISABLE_AUTO_UPDATE="true"
 COMPLETION_WAITING_DOTS="true"
 
-plugins=(git rails3 brew gem osx ruby rvm bundler cap pow powder rake node npm sublime)
+plugins=(git rails4 brew gem osx ruby rvm bundler cap pow powder rake node npm sublime heroku mac)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -40,4 +40,4 @@ alias showhidden="defaults write com.apple.Finder AppleShowAllFiles -bool true &
 alias hidehidden="defaults write com.apple.Finder AppleShowAllFiles -bool false && killall Finder"
 alias updatedb="sudo /usr/libexec/locate.updatedb"
 
-PATH="~/bin:~/.rvm/bin:/usr/local/bin:/usr/local/lib/node_modules:$PATH"
+PATH="~/bin:~/.rvm/bin:/usr/local/bin:/usr/local/lib/node_modules/bin:/usr/local/share/npm/bin:/usr/local/sbin:$PATH"

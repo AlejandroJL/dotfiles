@@ -5,3 +5,5 @@
 \#*#
 .powrc
 .jshintrc
+*/environments/development.rb
+*.sublime*
