@@ -40,4 +40,4 @@ alias showhidden="defaults write com.apple.Finder AppleShowAllFiles -bool true &
 alias hidehidden="defaults write com.apple.Finder AppleShowAllFiles -bool false && killall Finder"
 alias updatedb="sudo /usr/libexec/locate.updatedb"
 
-PATH="~/bin:~/.rvm/bin:/usr/local/bin:/usr/local/lib/node_modules/bin:/usr/local/share/npm/bin:/usr/local/sbin:$PATH"
+PATH="~/bin:~/.rvm/bin:/usr/local/bin:/usr/local/sbin:/usr/local/heroku/bin:/usr/local/lib/node_modules/bin:/usr/local/share/npm/bin:/usr/local/sbin:$PATH"
